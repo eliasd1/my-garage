@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Car Garage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1 >My Car Garage</h1>
+    </header>
+    <main>
+        <form id = "carSelect">
+            <div id = "carName">
+                <label for="name">Car Name</label>
+                <input id = "name" name = "name" type="text">
+            </div>
+            <div id = "carCategory">
+                <label for="model">Category Model</label>
+                <select name="model" id="model">
+                    <option value="bmw">BMW</option>
+                    <option value="lexus">Lexus</option>
+                    <option value="toyota">Toyota</option>
+                    <option value="tesla">Tesla</option>
+                    <option value="chevrolet">Chevrolet</option>
+                    <option value="hyundai">Hyundai</option>
+                    <option value="kia">KIA</option>
+                </select>
+            </div>
+            <div id = "carYear">
+                <label for="year">Model Year</label>
+                <select name="year" id="year">
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                </select>
+            </div>
+            <div>
+                <input id = "submitBtn" type="submit">
+            </div>
+            
+        </form>
+        <section>
+            <div id = "carDisplay">
+                
+            </div>
+        </section>
+        
+    </main>
+    <script src="js/app.js"></script>
+</body>
+</html>
